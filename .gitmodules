@@ -1,0 +1,6 @@
+[submodule "AndroidChromium"]
+	path = AndroidChromium
+	url = https://github.com/CMingTseng/Chromium-Android.git
+[submodule "365Browser"]
+	path = 365Browser
+	url = https://github.com/CMingTseng/365browser.git

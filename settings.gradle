@@ -1,0 +1,70 @@
+//Chromium Android
+include ':Chromium'
+project(":Chromium").projectDir = file("./AndroidChromium/app")
+
+include ':ui'
+project(":ui").projectDir = file("./AndroidChromium/ui")
+
+include ':data_chart'
+project(":data_chart").projectDir = file("./AndroidChromium/data_chart")
+
+include ':media'
+project(":media").projectDir = file("./AndroidChromium/media")
+
+include ':content'
+project(":content").projectDir = file("./AndroidChromium/content")
+
+include ':components:autofill'
+project(":components:autofill").projectDir = file("./AndroidChromium/components/autofill")
+
+include ':customtabs'
+project(":customtabs").projectDir = file("./AndroidChromium/customtabs")
+
+include ':download'
+project(":download").projectDir = file("./AndroidChromium/download")
+
+include ':splash'
+project(":splash").projectDir = file("./AndroidChromium/splash")
+
+include ':autofill_assistant'
+project(":autofill_assistant").projectDir = file("./AndroidChromium/autofill_assistant")
+
+include ':feed'
+project(":feed").projectDir = file("./AndroidChromium/feed")
+
+include ':components:embedder_support'
+project(":components:embedder_support").projectDir = file("./AndroidChromium/components/components_base")
+
+include ':components:components_base'
+project(":components:components_base").projectDir = file("./AndroidChromium/components/embedder_support")
+
+//365Browser
+
+include ':365Browser'
+project(":365Browser").projectDir = file("./365Browser/app")
+include ':libraries:chrome_res'
+project(":libraries:chrome_res").projectDir = file("./365Browser/libraries/chrome_res")
+
+include ':libraries:ui_res'
+project(":libraries:ui_res").projectDir = file("./365Browser/libraries/ui_res")
+
+include ':libraries:content_res'
+project(":libraries:content_res").projectDir = file("./365Browser/libraries/content_res")
+
+include ':libraries:datausagechart_res'
+project(":libraries:datausagechart_res").projectDir = file("./365Browser/libraries/datausagechart_res")
+
+include ':libraries:androidmedia_res'
+project(":libraries:androidmedia_res").projectDir = file("./365Browser/libraries/androidmedia_ress")
+
+include ':libraries:autofill_res'
+project(":libraries:autofill_res").projectDir = file("./365Browser/libraries/autofill_res")
+
+include ':libraries:media_res'
+project(":libraries:media_res").projectDir = file("./365Browser/libraries/media_res")
+
+include ':libraries:delegate_res'
+project(":libraries:delegate_res").projectDir = file("./365Browser/libraries/delegate_res")
+
+include ':libraries:gms_res'
+project(":libraries:gms_res").projectDir = file("./365Browser/libraries/gms_res")
