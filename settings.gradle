@@ -33,15 +33,16 @@ include ':feed'
 project(":feed").projectDir = file("./AndroidChromium/feed")
 
 include ':components:embedder_support'
-project(":components:embedder_support").projectDir = file("./AndroidChromium/components/components_base")
+project(":components:embedder_support").projectDir = file("./AndroidChromium/components/embedder_support")
 
 include ':components:components_base'
-project(":components:components_base").projectDir = file("./AndroidChromium/components/embedder_support")
+project(":components:components_base").projectDir = file("./AndroidChromium/components/components_base")
 
 //365Browser
 
 include ':365Browser'
 project(":365Browser").projectDir = file("./365Browser/app")
+
 include ':libraries:chrome_res'
 project(":libraries:chrome_res").projectDir = file("./365Browser/libraries/chrome_res")
 
@@ -55,7 +56,7 @@ include ':libraries:datausagechart_res'
 project(":libraries:datausagechart_res").projectDir = file("./365Browser/libraries/datausagechart_res")
 
 include ':libraries:androidmedia_res'
-project(":libraries:androidmedia_res").projectDir = file("./365Browser/libraries/androidmedia_ress")
+project(":libraries:androidmedia_res").projectDir = file("./365Browser/libraries/androidmedia_res")
 
 include ':libraries:autofill_res'
 project(":libraries:autofill_res").projectDir = file("./365Browser/libraries/autofill_res")
